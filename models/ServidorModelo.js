@@ -10,6 +10,7 @@ class ServidorModelo {
         this.app = express()
         this.despertarBD()
         this.enrutarPeticiones()
+        this.llamarAuxliares()
 
     }
     encenderServidor() {
